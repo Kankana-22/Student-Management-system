@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Student Details</title>
+   <link rel="stylesheet" href="kankana1.css">
+</head>
+
+<body>
+   <div class="container">
+      <h1><strong>Student Records</strong></h1>
+      <div class="student">
+         <input type="text" id="name" placeholder="Enter Name">
+         <input type="text" id="email" placeholder="Enter Email">
+         <button id="btn">Add</button>
+      </div>
+      <div class="view-students">
+         <h2>Student List</h2>
+         <ul id="student-list"></ul>
+      </div>
+
+
+
+      <table>
+         <thead>
+            <tr>
+               <th>ID</th>
+               <th>Name</th>
+               <th>Email</th>
+               <th>Actions</th>
+            </tr>
+         </thead>
+         <tbody id="Table">
+            <tr>
+               <td>1</td>
+               <td>Faraz</td>
+               <td>codewithfaraz@gmail.com</td>
+               <td>
+                  <button class="edit">Edit</button>
+                  <button class="delete">Delete</button>
+               </td>
+            </tr>
+            <tr>
+               <td>2</td>
+               <td>John</td>
+               <td>johnm58@yahoo.com</td>
+               <td>
+                  <button class="edit">Edit</button>
+                  <button class="delete">Delete</button>
+               </td>
+            </tr>
+            <tr>
+               <td>3</td>
+               <td>Roy</td>
+               <td>roycer@gmail.com</td>
+               <td>
+                  <button class="edit">Edit</button>
+                  <button class="delete">Delete</button>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+
+
+      <div class="stud">
+         <input type="text" id="Enter name" placeholder="Enter Name">
+         <input type="text" id="Email" placeholder="Enter Email">
+         <button id="update">Update</button>
+         <button id="cancel">Cancel</button>
+      </div>
+   </div>
+</body>
+
+</html>
