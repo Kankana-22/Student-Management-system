@@ -1,1 +1,1 @@
-# Student-Details
+# Student-Management
